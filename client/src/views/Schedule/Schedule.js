@@ -58,7 +58,7 @@ class Forms extends Component {
             <Card>
               <Form>
                 <CardHeader>
-                  <strong>Payment</strong>
+                  <strong>Recurring Payment</strong>
                   <small></small>
                 </CardHeader>
                 <CardBody>

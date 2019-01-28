@@ -97,10 +97,10 @@ async function payBill(addr,val){
 	var value = parseInt(val,10);
 	var contract = await new web3.eth.Contract(abi,address);
 	console.log(contract);
-	// contract.methods.paybills(addr, value).send({
-	// 	from: accounts[0],
-	// 	gasLimit: 1000000,
-	// })
+	 contract.methods.paybills(addr, value).send({
+	 	from: accounts[0],
+	 	gasLimit: 1000000,
+	 })
 
 }
 

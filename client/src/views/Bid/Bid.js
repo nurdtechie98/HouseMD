@@ -82,8 +82,8 @@ class Tables extends Component {
                     <tr>
                       <th>Item Name</th>
                       <th>Expires In</th>
-                      <th>Curr Bid</th>
-                      <th>Bid</th>
+                      <th>Contract Address</th>
+                      <th>Action</th>
                     </tr>
                   </thead>
                   <tbody>

@@ -66,6 +66,37 @@ export const abi = [
 		"type": "constructor"
 	},
 	{
+		"anonymous": false,
+		"inputs": [
+			{
+				"indexed": false,
+				"name": "to",
+				"type": "address"
+			},
+			{
+				"indexed": false,
+				"name": "val",
+				"type": "uint256"
+			}
+		],
+		"name": "Payed",
+		"type": "event"
+	},
+	{
+		"constant": true,
+		"inputs": [],
+		"name": "balance",
+		"outputs": [
+			{
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
 		"constant": true,
 		"inputs": [
 			{
@@ -86,4 +117,4 @@ export const abi = [
 	}
 ]
 
-export const address = '0x084a734e486b26336b04dcdf0b81f042872884ca';
+export const address = '0x31bfd619021f6089f3e2c27c9e194fc45cdafdd9';

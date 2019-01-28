@@ -120,12 +120,12 @@ class Forms extends Component {
             <Card>
               <Form>
                 <CardHeader>
-                  <strong>Auction</strong>
+                  <strong>Reverse Auction for Services</strong>
                   <small> Form</small>
                 </CardHeader>
                 <CardBody>
                   <FormGroup>
-                    <Label htmlFor="company">Item Description</Label>
+                    <Label htmlFor="company">Service Description</Label>
                     <Input
                       type="text"
                       id="company"
@@ -133,11 +133,11 @@ class Forms extends Component {
                     />
                   </FormGroup>
                   <FormGroup>
-                    <Label htmlFor="vat">Max Amount</Label>
+                    <Label htmlFor="vat">Max Amount (wei)</Label>
                     <Input type="text" id="vat" placeholder="Enter max amount for auction" />
                   </FormGroup>
                   <FormGroup>
-                    <Label htmlFor="street">Time</Label>
+                    <Label htmlFor="street">Time (secs)</Label>
                     <Input
                       type="text"
                       id="street"
